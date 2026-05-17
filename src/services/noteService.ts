@@ -6,6 +6,7 @@ export interface NotesResponse {
 }
 
 axios.defaults.baseURL = "https://notehub-public.goit.study/api";
+// notehub token:
 axios.defaults.headers.common["Authorization"] =
   `Bearer ${import.meta.env.VITE_NOTEHUB_APP_TOKEN}`;
 
